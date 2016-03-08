@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>FCC: File Metadata Microservice</title>
+  <style>
+    body {
+      font-size: 18px;
+      padding: 0 15px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    input {
+      font-size: 20px;
+    }
+    hr {
+      margin-bottom: 30px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h2>FCC: File Metadata Microservice</h1>
+  
+  <h3>This is a <a href="http://www.freecodecamp.com/mcmo" target="_blank">FreeCodeCamp.com</a> project which uses full-stack JavaScript to accomplish the following objectives.</h2>
+  <ul>
+    <li>I can submit a FormData object that includes a file upload.</li>
+    <li>When I submit something, I will receive the file size in bytes within the JSON response.</li>
+  </ul>
+  <hr>
+  <form action="upload" method="post">
+    <input type="file" name="file">
+    <input type="submit" formenctype="multipart/form-data">
+  </form>
+</body>
+
+</html>

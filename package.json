@@ -1,0 +1,19 @@
+{
+  "name": "f-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^13.0.0",
+    "inert": "^3.2.0",
+    "multer": "^1.1.0",
+    "multiparty": "^4.1.2",
+    "pez": "^2.0.1"
+  }
+}
