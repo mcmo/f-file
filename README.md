@@ -1,6 +1,6 @@
 ## File Metadata Microservice
 
-Website: <a href="https://f-file.herokuapp.com/" target="_blank">f-url.herokuapp.com</a>
+Website: <a href="https://f-file.herokuapp.com/" target="_blank">f-file.herokuapp.com</a>
 
 #### This is a <a href="http://www.freecodecamp.com/mcmo" target="_blank">FreeCodeCamp.com</a> project which uses full-stack JavaScript to accomplish the following objectives.
 

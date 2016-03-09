@@ -12,7 +12,7 @@ server.register(require('inert'), (err) => {
 
   if (err) throw err
 
-  // utilized https://gist.github.com/joyrexus/0c6bd5135d7edeba7b87
+  // customized https://gist.github.com/joyrexus/0c6bd5135d7edeba7b87
   server.route({
     method: 'POST',
     path: '/upload',
@@ -26,7 +26,7 @@ server.register(require('inert'), (err) => {
         var data = request.payload
         if (data.file) {
           var name = data.file.hapi.filename;
-          var path = __dirname + "/uploads/" + name;
+          var path = __dirname + name;
           var file = fs.createWriteStream(path);
 
           file.on('error', function(err) {
