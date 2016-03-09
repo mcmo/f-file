@@ -26,7 +26,8 @@ server.register(require('inert'), (err) => {
         var data = request.payload
         if (data.file) {
           var name = data.file.hapi.filename;
-          var path = __dirname + name;
+          var path = __dirname + '/' + name;
+          console.log(path)
           var file = fs.createWriteStream(path);
 
           file.on('error', function(err) {
